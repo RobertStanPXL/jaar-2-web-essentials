@@ -2,10 +2,5 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Git/PE oefeningen/gh_arnobarzan-RobertStanPXL" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Git/git oefening/oefen-repository-RobertStanPXL" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Git/project1" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Git/project1/project1" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Positionering" vcs="Git" />
   </component>
 </project>
