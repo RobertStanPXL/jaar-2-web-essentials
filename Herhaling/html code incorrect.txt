@@ -1,0 +1,69 @@
+<section>
+        <figure>
+            <img src="assets/banner.jpg" alt="banner" id="banner">
+            <p id="tuin">DE TUIN VAN SAM</p>
+        </figure>
+        <header>
+            <h1 id="nieuws">Recent nieuws</h1>
+        </header>
+    </section>
+    <section>
+        <article>
+            <img class="artikelimg" src="assets/blog01.jpg" alt="blog1">
+            <div>
+                <h2>Tuin en Licht Deel 2</h2>
+                <p>Zuidelijk gelegen? Zicht op het westen? Deel 2 van onze spannende reeks. Hoe maak je optimaal gebruik van de lichtinval in je tuin?</p>
+            </div>
+        </article>
+        <article>
+            <img class="artikelimg" src="assets/blog02.jpg" alt="blog2">
+            <div>
+                <h2>DIY Fridays</h2>
+                <p>Het is weer vrijdag! Wil je je tuin een klein beetje extra pit geven? Vandaag gebruikt Sam enkel een elastiekje en een zoutvaatje om mooie tuindecoratie te maken.</p>
+            </div>
+        </article>
+        <article>
+            <img class="artikelimg" src="assets/blog03.jpg" alt="blog3">
+            <div>
+                <h2>Paddestoelen</h2>
+                <p>Sam legt uit welke paddestoelen giftig zijn en hoe je ze kan herkennen.</p>
+            </div>
+        </article>
+        <article>
+            <img class="artikelimg" src="assets/blog04.jpg" alt="blog4">
+            <div>
+                <h2>Tuin en Licht Deel 1</h2>
+                <p>De start van een nieuwe reeks. Ons team van Sammen leert je in deze 5-delige reeks hoe je optimaal gebruik maakt van de lichtinval.</p>
+            </div>
+        </article>
+    </section>
+    <section>
+        <article>
+            <img class="artikelimg" src="assets/blog05.jpg" alt="blog5">
+            <div>
+                <h2>Slakkenseizoen</h2>
+                <p>Last van slakken? 10 handige tips om slakken te weren uit je tuintje.</p>
+            </div>
+        </article>
+        <article>
+            <img class="artikelimg" src="assets/blog06.jpg" alt="blog6">
+            <div>
+                <h2>Tuinvrienden</h2>
+                <p>Dankzij jullie stein zijn we vastberaden om nog meer mensen te informeren over onze liefde voor Tuinen. Vanaf volgende maand zullen wij starten met een maandelijks magazin: de tuinvrienden van Sam.</p>
+            </div>
+        </article>
+        <article>
+            <img class="artikelimg" src="assets/blog07.jpg" alt="blog7">
+            <div>
+                <h2>Hoge bomen</h2>
+                <p>De verkiezingen zijn achter de rug. Sam kijkt vandaag naar de impact daarvan op jouw tuin.</p>
+            </div>
+        </article>
+        <article>
+            <img class="artikelimg" src="assets/blog08.jpg" alt="blog8">
+            <div>
+                <h2>Wandkriebels</h2>
+                <p>De herfst staat voor de deur. Sam neemt je mee op de 3 mooiste bostochten door de Ardennen.</p>
+            </div>
+        </article>
+    </section>
