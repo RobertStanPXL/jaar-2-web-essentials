@@ -5,8 +5,7 @@
 
 body {
     background-color: #ededed;
-    min-height: 100%;
-    margin-left: 15px;
+    margin: 0;
 }
 nav {
     background-color: rgb(87, 222, 135);
@@ -139,10 +138,22 @@ footer {
     padding-left: calc((1050px - (250px * 4)) / 4);
     padding-right: calc((1050px - (250px * 4)) / 4);
 }
+.date{
+    width: 50%;
+    float: right;
+    text-align: right;
+    margin: 0 0 7px;
+}
+.aut{
+    width: 50%;
+    float: left;
+    margin: 0 0 7px
+}
 
 @media screen and (min-width: 1000px) {
-    body {
+    main {
         width: 1050px;
+        margin: 0 auto;
     }
     nav {
         height: 55px;
