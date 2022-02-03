@@ -116,8 +116,8 @@ footer {
     padding-top: 10px;
     padding-left: 10px;
 }
-#pushdownfooter{
-    padding-bottom: 400px;
+.pushdownfooter{
+    padding-bottom: 300px;
 }
 .date{
     width: 50%;
@@ -129,6 +129,27 @@ footer {
     width: 50%;
     float: left;
     margin: 0 0 7px
+}
+table{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+}
+.rowsdonkergroen{
+    background-color: #326544;
+}
+.rowslichtgroen{
+    background-color: #85d38e;
+}
+.delendoor3{
+    width: calc(100% / 3);
+}
+.altkleurth{
+    background-color: #368050;
+}
+.altkleurtd{
+    background-color: #b5d8b9;
 }
 
 @media screen and (min-width: 1000px) {
@@ -185,9 +206,14 @@ footer {
         padding-right: 0;
         padding-left: 12px;
     }
+    .pushdownfooter{
+        padding-bottom: 500px;
+    }
 }
-
 @media screen and (max-width: 700px){
+    body{
+        min-width: 300px;
+    }
     main{
         width: 95%;
         margin: 0 auto;
@@ -203,7 +229,7 @@ footer {
         width: 100%;
         height: auto;
     }
-    #pushdownfooter{
+    .pushdownfooter{
         padding-bottom: 1400px;
     }
 }
