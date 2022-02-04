@@ -117,7 +117,7 @@ footer {
     padding-left: 10px;
 }
 .pushdownfooter{
-    padding-bottom: 300px;
+    margin-top: 300px;
 }
 .date{
     width: 50%;
@@ -150,6 +150,46 @@ table{
 }
 .altkleurtd{
     background-color: #b5d8b9;
+}
+#envelop{
+    width: 40px;
+    float: left;
+    margin-right: 20px;
+}
+::placeholder{
+    color: white;
+    padding-left: 10px;
+}
+.input{
+    background-color: #85d38e;
+    width: calc((100% - 24px) / 3);
+    float: left;
+    margin-bottom: 20px;
+    height: 30px;
+    border-radius: 5px;
+}
+.input:nth-child(2){
+    margin-left: 12px;
+    margin-right: 12px;
+}
+.input:last-child{
+    margin: 0;
+}
+.textarea{
+    float: left;
+    width: 100%;
+    background-color: #85d38e;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    height: 100px;
+
+}
+.submit{
+    width: 100%;
+    color: white;
+    background-color: #326544 ;
+    border-radius: 5px;
+    height: 40px;
 }
 
 @media screen and (min-width: 1000px) {
@@ -207,10 +247,10 @@ table{
         padding-left: 12px;
     }
     .pushdownfooter{
-        padding-bottom: 500px;
+        margin-top: 500px;
     }
 }
-@media screen and (max-width: 700px){
+@media screen and (max-width: 700px) and (min-width: 0px){
     body{
         min-width: 300px;
     }
@@ -230,6 +270,6 @@ table{
         height: auto;
     }
     .pushdownfooter{
-        padding-bottom: 1400px;
+        margin-top: 1300px;
     }
 }

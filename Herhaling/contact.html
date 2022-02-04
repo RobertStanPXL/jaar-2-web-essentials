@@ -4,8 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
+    <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
-
+    <nav>
+        <img src="assets/logo.png" alt="logo" id="logo">
+        <a href="index.html">NIEUWS</a>
+        <a href="producten.html">PRODUCTEN</a>
+        <a href="#">CONTACT</a>
+    </nav>
+    <main>
+        <section id="banner" >
+            <figure id="bannerfig">
+                <img src="assets/banner.jpg" alt="banner">
+                <p id="tuin">DE TUIN VAN SAM</p>
+            </figure>
+            <header>
+                <img src="assets/contact.png" alt="envelop" id="envelop">
+                <h1>Contact</h1>
+            </header>
+        </section>
+        <div>
+            <p>Wij horen graag van onze fans. Laat je horen:</p>
+        </div>
+        <form action="mailto:sam.agten@pxl.be" method="post">
+            <input class="input" type="text" id="naam" name="naam" placeholder="Naam:">
+            <input class="input" type="email" id="email" name="email" placeholder="E-mail:">
+            <input class="input" type="text" id="onderwerp" name="onderwerp" placeholder="Onderwerp: ">
+            <textarea class="textarea" id="boodschap" name="boodschap" placeholder="Boodschap: "></textarea>
+        </form>
+        <button type="submit" class="submit">Stuur boodschap</button>
+    </main>
+    <footer class="pushdownfooter">
+        <p>Copyright PXL 2020</p>
+    </footer>
 </body>
 </html>
