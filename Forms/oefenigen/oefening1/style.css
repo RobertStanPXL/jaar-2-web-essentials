@@ -1,0 +1,36 @@
+fieldset{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+form label{
+    display: inline-block;
+    margin: 0 auto;
+}
+.label{
+    padding-bottom: 10px;
+    width: 80px;
+}
+.labelkort{
+    width: 40px;
+}
+.inputkort{
+    width: 50px;
+
+}
+.input{
+    width: calc(100%  / 4 + 10px);
+
+}
+.labelbus{
+    width: 40px;
+}
+.inputbus{
+    width: calc(200px / 2 - 35px);
+}
+button{
+    width: 170px;
+    height: 30px;
+    box-sizing: border-box;
+    display: inline-block;
+}

@@ -1,0 +1,12 @@
+fieldset{
+    border: 0;
+}
+#naamveld input{
+    width: 300px;
+
+}
+.labelboven {
+    display: flex;
+    flex-direction: column;
+    width: 40px;
+}
